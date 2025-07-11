@@ -14,12 +14,12 @@ A Python-based console chat application powered by LangChain, supporting Azure O
 ```
 baish/
 ├── src/
-│   └── baish.py                # Main application script
+│   └── baish.py               # Main application script
 ├── system-messages/
-│   └── default.txt             # Default system message
+│   └── default-sm.txt         # Default system message
 ├── white-list/
 │   └── default-wl.txt         # Default whitelist regex file
-├── .env.example                # Example environment variable file
+├── .env.example               # Example environment variable file
 ├── .gitignore                 # Git ignore file
 ├── LICENSE                    # MIT License
 ├── README.md                  # This file
@@ -70,7 +70,7 @@ baish/
    ```
 
 4. **Ensure system message and whitelist files exist**:
-    - Default system message: `system-messages/default.txt`
+    - Default system message: `system-messages/default-sm.txt`
     - Default whitelist: `white-list/default-wl.txt`
 
 5. **Run the application**:
@@ -84,7 +84,7 @@ baish/
    ```
    Specify custom paths if needed:
    ```bash
-   python src/baish.py --provider azure --system-message system-messages/default.txt --whitelist white-list/default-wl.txt
+   python src/baish.py --provider openai --system-message system-messages/default-sm.txt --whitelist white-list/default-wl.txt
    ```
 
 ## Usage
