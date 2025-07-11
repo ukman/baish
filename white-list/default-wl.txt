@@ -1,0 +1,23 @@
+^ls[a-z_]*( -[a-zA-Z0-9]+)?(\s+[-/\w\.]+)?$
+^pwd$
+^df .*$
+^whoami$
+^date.*$
+^echo .+$
+^free .+$
+^cat .+$
+^top .+$
+^vmstat .+$
+^hostnamectl .+$
+^uname .+$
+^sw_vers .+$
+^sysctl .+$
+^system_profiler .+$
+^inxi .+$
+^dpkg .+$
+^rpm .+$
+^ps .+$
+.+
+^find\s+[-/\w\.]+\s+-type\s+[fd]\s+-name\s+['"][\w\.\*]+['"]$
+^grep\s+-[a-zA-Z0-9]+\s+['"][\w\.\*]+['"]\s+[-/\w\.]+$
+# Comment: Allowed safe commands: ls, pwd, df -h, whoami, date, echo, find (search by name/type), grep (search in files)
