@@ -38,7 +38,7 @@ baish/
 ## Setup
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/baish.git
+   git clone https://github.com/ukman/baish.git
    cd baish
    ```
 
